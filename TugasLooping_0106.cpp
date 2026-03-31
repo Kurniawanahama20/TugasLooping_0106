@@ -75,3 +75,8 @@ int main() {
             case 1:
                 inputAngka();
                 tampilPrima();
+                break;
+
+            case 2:
+                inputAngka();
+                tampilFibonacci();
