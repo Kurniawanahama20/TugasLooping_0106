@@ -3,3 +3,7 @@ using namespace std;
 
 // Variabel global
 int n, pilihan;
+
+// Function untuk cek bilangan prima
+bool isPrima(int n) {
+    if (n <= 1) return false;
