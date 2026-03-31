@@ -43,5 +43,11 @@ void inputAngka() {
 void tampilPrima() {
     if (isPrima(n)) {
         cout << n << " adalah bilangan prima\n";
+    } else {
+        cout << n << " bukan bilangan prima\n";
+    }
+}
 
-
+// Prosedur tampil hasil fibonacci
+void tampilFibonacci() {
+    if (isFibonacci(n)) {
