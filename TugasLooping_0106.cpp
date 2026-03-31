@@ -70,3 +70,8 @@ int main() {
     while (true) {
         tampilMenu();
         cin >> pilihan;
+
+        switch (pilihan) {
+            case 1:
+                inputAngka();
+                tampilPrima();
